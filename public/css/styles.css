@@ -1,0 +1,101 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar container */
+
+.container {
+    justify-content: center !important;
+    padding: 0px !important;
+
+}
+
+.navbar {
+    background: #252F3D;
+    padding: 10px 0px;
+}
+
+.navbar-brand {
+    display: block;
+    color: #FFFFFF;
+    width: 100%;
+    margin-right: 0px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+#carouselExample {
+    color: white !important;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 100% !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    margin: 0px;
+}
+
+.next-icon,
+.prev-icon {
+    filter: none;
+    color: white;
+    height: 20px;
+}
+
+.carousel-item {
+    float: none;
+    margin-right: 0% !important;
+}
+
+.nav-item>svg {
+    margin-right: 8px;
+}
+
+#carouselExample .fas  {
+    font-size: 20px; 
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* Desktop Media Queries */
+@media (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    /* .navbar-nav .nav-item {
+      margin: 0 20px; 
+    } */
+}
