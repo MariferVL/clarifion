@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Manrope', sans-serif !important;
 }
 
 /* Navbar container */
@@ -14,8 +15,9 @@
 }
 
 .navbar {
-    background: #252F3D;
+    background: #252F3D !important;
     padding: 10px 0px;
+    height: 45px !important;
 }
 
 .navbar-brand {
@@ -29,11 +31,11 @@
     display: flex;
     justify-content: center;
     color: #FFFFFF;
-    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
 }
+
 
 #carouselExample {
     color: white !important;
@@ -46,6 +48,17 @@
 .carousel-control-prev,
 .carousel-control-next {
     margin: 0px;
+}
+
+.carousel-item-start p,
+.carousel-item-prev p,
+.carousel-item-end p,
+.carousel-item-next p,
+.carousel-item-start p svg,
+.carousel-item-prev p svg,
+.carousel-item-end p svg,
+.carousel-item-next p svg {
+    display: none;
 }
 
 .next-icon,
@@ -64,13 +77,209 @@
     margin-right: 8px;
 }
 
-#carouselExample .fas  {
-    font-size: 20px; 
-    color: white;
+#carouselExample button svg {
+    font-size: 20px;
+    fill: white;
+    position: fixed;
+    top: 1rem !important;
+}
+
+
+/* 2nd Navbar */
+
+.row {
+    padding: 20px 33px 20px 22px;
+}
+
+
+div.col-1:nth-child(3) {
+    padding-right: 0px;
+}
+
+
+.brand-logo img {
+    width: 106.67px;
+    height: 20px;
+}
+
+
+.brands img {
+    width: 44px;
+    height: 16px;
+}
+
+/* Main */
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #000000;
+    margin-top: 22px;
+}
+
+.main-title h1 {
+    font-size: 32px;
+    margin: 0px;
+}
+
+.main-title p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #4D5254;
+}
+
+div.container:nth-child(2)>div:nth-child(1) {
+    padding: 3px 33px 20px 22px;
+}
+
+
+.icon img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    font-size: 12px;
+    width: max-content;
+}
+
+.label.active {
+    font-weight: bold;
+}
+
+
+/* Product Section */
+
+#product>div:nth-child(1)>div:nth-child(1) {
+    padding-right: 22px;
+}
+
+
+.special-price {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.highlight-price {
+    color: #2C7EF8;
+}
+
+.img-fluid {
+    border-radius: 3%;
+    width: 320px;
+    height: 328px;
 }
 
 
 
+.container-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    margin-top: 24px;
+    width: 320px;
+    height: 122px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    width: 320px;
+    height: 80px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background: #2C7EF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-info {
+    padding: 0px !important;
+}
+
+
+.product-name {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.product-price {
+    display: flex;
+    gap: 8px;
+}
+
+.discounted-price {
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: line-through;
+    color: #969696;
+}
+
+.original-price {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2C7EF8;
+}
+
+.stars {
+    display: flex;
+    gap: 4px;
+}
+
+.star-icon svg {
+    width: 10px;
+    height: auto;
+}
+
+.stock {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.description {
+    font-size: 12px;
+    font-weight: 400;
+    color: #4D5254;
+}
 
 
 
@@ -79,23 +288,143 @@
 
 /* Desktop Media Queries */
 @media (min-width: 768px) {
-    .navbar {
+
+    /* Header */
+
+    .row {
+        padding: 30px 68px;
+    }
+
+    .brand-logo img {
+        width: 192px;
+        height: 36px;
+    }
+
+    .brands img {
+        width: 82px;
+        height: 32px;
+    }
+
+
+    /* Main */
+
+    .main-title {
+        margin-top: 0px;
+    }
+
+    .main-title h1 {
+        font-size: 48px;
+    }
+
+    .main-title p {
+        font-size: 24px;
+    }
+
+    .icon img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .label {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+
+    div.container:nth-child(3)>div:nth-child(1) {
+        padding: 33px 0;
+    }
+
+    .d-none .col {
+        padding: 0;
+    }
+
+    #product {
+        background-color: #FAFAFA;
+        margin: 0px 58px;
+        gap: 32px;
+    }
+
+    #product>div:nth-child(1)>div:nth-child(1) {
+        padding-left: 0px;
+    }
+
+    .special-price {
+        font-size: 32px;
+        line-height: 140%;
+        margin-bottom: 0;
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        padding: 10px 20px;
+        text-align: left;
+        margin-left: 20px;
     }
 
-    .navbar-nav {
+    .img-fluid {
+        margin-left: 22px;
+        width: 575px;
+        height: 591px;
+    }
+
+    .container-description {
         display: flex;
-        justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+        margin-top: 32px;
+        width: 550px;
+        height: 135px;
     }
 
-    .navbar-toggler {
-        display: none;
+    .header {
+        width: 550px;
+        height: 80px;
     }
 
-    /* .navbar-nav .nav-item {
-      margin: 0 20px; 
-    } */
+    .logo {
+        width: 134px;
+        height: 134px;
+        border-radius: 10px;
+        background: #2C7EF8;
+    }
+
+    .circle img {
+        width: 134px;
+        height: 134px;
+    }
+
+    .info {
+        width: 392px;
+        height: 135px;
+    }
+
+    .product-name {
+        font-size: 20px;
+    }
+
+    .discounted-price {
+        font-size: 16px;
+    }
+
+    .original-price {
+        font-size: 22px;
+    }
+
+    .stars {
+        width: 98px;
+    }
+
+    .star-icon svg {
+        width: 15px;
+        height: auto;
+    }
+
+
+    .stock {
+        font-size: 16px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
 }
