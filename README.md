@@ -31,15 +31,15 @@ To run the Clarifion eCommerce Mock locally on your machine, follow these steps:
    ```bash
    git clone https://github.com/MariferVL/clarifion.git
 
-    Navigate to the project directory:
+2. Navigate to the project directory:
 
-    bash
+    ```bash
 
     cd clarifion-ecommerce-mock
 
-    Open the index.html file in your web browser to view the mockup.
+3. Open the index.html file in your web browser to view the mockup.
 
-Project Structure
+## Project Structure
 
 The project structure is organized as follows:
 
@@ -49,8 +49,8 @@ The project structure is organized as follows:
     img/: Contains images used in the mockup.
     firebase.json: The Firebase configuration file that specifies hosting settings and deployment configurations.
 
-Contributions
+## Contributions
 
 This project is a static mockup and may not require contributions. However, if you have suggestions or spot any issues, please feel free to open an issue or submit a pull request.
-Contact
+
 
