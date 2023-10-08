@@ -236,12 +236,18 @@ div.container:nth-child(2)>div:nth-child(1) {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-left: 0px;
 }
+
+
+div.stars:nth-child(2) {
+    margin-left: 0px;
+}
+
 
 .product-info {
     padding: 0px !important;
-    margin-top: 11px;
-
+    margin-top: 0px;
 }
 
 
@@ -250,6 +256,8 @@ div.container:nth-child(2)>div:nth-child(1) {
     font-weight: 400;
     color: #000000;
     padding: 0px;
+    margin-left: 12px;
+
 }
 
 .product-price {
@@ -287,6 +295,12 @@ div.container:nth-child(2)>div:nth-child(1) {
     font-size: 12px;
     font-weight: lighter;
     color: #37465A;
+    margin-top: -5px;
+}
+
+
+.dot-img {
+    width: 12px;
 }
 
 .description {
@@ -330,8 +344,6 @@ div.container:nth-child(2)>div:nth-child(1) {
 }
 
 
-  
-
 .feature svg {
     width: 14px;
     height: auto;
@@ -366,6 +378,266 @@ div.feature p {
 }
 
 
+.product-section {
+    background: #EDF3FD;
+    border-radius: 10px;
+    margin: 22px 0px 0px;
+    padding: 12px 22px;
+}
+
+
+.price-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+    text-align: left;
+}
+
+.light-blue {
+    color: #2C7EF8;
+}
+
+.percent-img {
+    border-radius: 50%;
+    width: 24px;
+    margin-right: 16px;
+}
+
+.product-section .col-10 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+div.col-2:nth-child(1) {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: auto;
+}
+
+
+.discount-btn {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 55px;
+    margin-top: 24px;
+    width: 320px;
+    height: 51px;
+    background: #59AE43;
+    border-radius: 50px;
+    border: none;
+}
+
+.arrow {
+    font-size: 22px;
+    width: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 4px;
+}
+
+
+
+.payment-section {
+    color: #4D5254;
+    font-size: 12px;
+    padding: 8px 13px 8px 16px;
+    gap: 12px;
+    width: 100%;
+    border: 1px solid #CFCFCF;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 24px;
+}
+
+
+.dividing-line {
+    width: 1.1px;
+    height: 13px;
+    background-color: #CFCFCF;
+    padding: 0;
+    transform: rotate(0deg);
+    margin-top: 3px;
+}
+
+.horizontal-line {
+    border: none;
+    border-top: 2px solid #6A6868;
+    width: 95%;
+    margin: 0;
+}
+
+.payment-section img {
+    width: 67%;
+    margin-left: 40px;
+}
+
+.payment-section p.col-4 {
+    padding: 0px;
+    width: fit-content;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+
+.no-section {
+    text-align: center;
+    margin-top: 3px;
+}
+
+.no-thanks {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #F82C2C;
+}
+
+.guarantee {
+    padding: 16px;
+}
+
+.guarantee img {
+    width: 48px;
+    margin-top: 3px;
+    border-radius: 50%;
+}
+
+.guarantee-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #4D5254;
+}
+
+.guarantee div.col-4 {
+    width: auto;
+}
+
+.guarantee .align-items-start>div {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.guarantee .align-items-start {
+    margin: 0px -40px 0px 1px;
+    padding: 20px 0px;
+}
+
+
+div.col-4>img:nth-child(1) {
+    margin-right: 16px;
+}
+
+
+/* Testimonial Section */
+
+#testimonials {
+    margin: 33rem 0 3rem;
+    padding-top: 22px;
+}
+
+.profile-img {
+    width: 48px;
+    padding-top: 0px;
+    border-radius: 50%;
+
+
+}
+
+
+#testimonials>div:nth-child(1) {
+    margin-left: 3px;
+    background: #f3f3f3;
+
+}
+
+
+.testimonial-text {
+    color: #4D5254;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-right: -8px;
+}
+
+
+.verified {
+    color: #5BB59A;
+    font-size: 8px;
+    margin-top: 3px 3px 0px 1px;
+    padding-left: 11px;
+    position: relative;
+    bottom: 3px;
+}
+
+
+.author-name {
+    width: max-content;
+    margin-left: -1px;
+    position: absolute;
+    right: 111px;
+    margin: 0px 16px 0px 0px;
+    font-size: 14px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+
+div.col-4:nth-child(3) {
+    align-items: center;
+}
+
+div.stars:nth-child(1)>span:nth-child(1) {
+    height: auto;
+    margin-top: 1px;
+}
+
+
+div.stars:nth-child(1) {
+    margin-top: 0px;
+    padding-bottom: 22px;
+}
+
+
+
+/* Footer */
+
+footer {
+    background: #252F3D;
+    color: white;
+    font-size: 12px;
+}
+
+
+footer p.col-4 {
+    width: fit-content;
+    text-align: center;
+}
+
+
+footer p.col-12 {
+    text-align: center;
+}
+
+footer:nth-child(3)>div:nth-child(1) {
+    padding-bottom: 11px;
+    margin-left: -3px;
+
+}
+
+footer:nth-child(3)>div:nth-child(1)>div:nth-child(2) {
+    margin-left: -8px;
+    margin-right: 3px;
+}
 
 
 
@@ -433,8 +705,6 @@ div.feature p {
     #product>div:nth-child(1)>div:nth-child(1) {
         padding-left: 0px;
     }
-
-
 
     .special-price {
         font-size: 32px;
@@ -520,9 +790,8 @@ div.feature p {
     }
 
     .description {
-        font-size: 16px;
+        font-size: 15px;
         margin-left: -10px;
-
     }
 
     .product-price {
@@ -532,7 +801,7 @@ div.feature p {
     .original-price {
         font-size: 16px;
     }
-    
+
     .discounted-price {
         font-size: 22px;
     }
@@ -569,8 +838,59 @@ div.feature p {
         padding-bottom: 11px;
     }
 
+    .price-text {
+        font-size: 16px;
+        width: auto;
+
+    }
 
 
+    .percent-img {
+        width: 32px;
+        margin: -2px 16px 0px 0px;
+    }
+
+
+    .product-section {
+        margin-left: 33px;
+        padding: 12px 26px 12px 16px;
+    }
+
+
+    span.light-blue:nth-child(2) {
+        margin-right: 0px;
+    }
+
+
+    .product-section .col-10 {
+        margin-right: 33px;
+    }
+
+    .discount-btn {
+        font-size: 20px;
+        margin-left: 33px;
+        width: auto;
+        padding-left: 117px;
+        padding-right: 144px;
+    }
+
+
+    .arrow {
+        margin-left: 19px;
+        font-size: 33px;
+    }
+
+
+
+
+
+
+
+
+
+    .guarantee img {
+        width: 88px;
+    }
 
 
 }
